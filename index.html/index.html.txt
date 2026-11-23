@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katre Cam | Bodrum Cam Balkon, Pergole, Alüminyum &amp; PVC Doğrama</title>
+    <meta
+      name="description"
+      content="Bodrum yarımadası genelinde cam balkon, pergole, alüminyum doğrama, PVC doğrama ve özel cam sistemleri için keşif ve uygulama."
+    />
+  </head>
+  <body class="bg-white text-slate-900 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
