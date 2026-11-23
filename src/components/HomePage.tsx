@@ -451,4 +451,19 @@ export const HomePage: React.FC<HomePageProps> = ({ locale, onNavigate }) => {
       <div className="fixed bottom-0 inset-x-0 z-40 grid grid-cols-2 gap-2 border-t border-slate-200 bg-white p-2.5 md:hidden">
         <a
           href={BUSINESS_INFO.phoneHref}
-          className="flex items-center justify-center rounded-lg bg-blue-950
+          className="flex items-center justify-center rounded-lg bg-blue-950 py-2.5 text-xs font-bold text-white"
+        >
+          Hemen Ara
+        </a>
+        <a
+          href={buildWhatsAppUrl("Mobil bar üzerinden keşif talebi")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center rounded-lg bg-emerald-600 py-2.5 text-xs font-bold text-white"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  );
+};
